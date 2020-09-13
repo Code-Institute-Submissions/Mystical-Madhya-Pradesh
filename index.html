@@ -20,10 +20,7 @@
         <div class="mySlides fade">
         <div class="numbertext">1 / 6</div>
         <img src="assets/images/gwalior-fort-crop.jpg" style="width:100%">
-        <div class="text">Gwalior Fort is a hill fort near Gwalior, Madhya Pradesh. 
-        The fort has existed at least since the 10th century, and the inscriptions 
-        and monuments found within what is now the fort campus indicate that it may 
-        have existed as early as the beginning of the 6th century. </div>
+        <div class="text">Gwalior Fort, Gwalior</div>
         </div>
 
         <div class="mySlides fade">
@@ -98,15 +95,10 @@
 
   
 <div id="accordion">
-  <h3>Section 1</h3>
-  <div>
-    <p>
-    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-    </p>
-  </div>
+  <h3>Check out your holiday destinations on the map</h3>
+  
+    <div id="map"></div>
+  
   <h3>Section 2</h3>
   <div>
     <p>
@@ -146,6 +138,22 @@
   </div>
 </div>
 </section>
+
+<script>
+
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+            lat: 46.619261,
+            lng: -33.134766
+        }
+    });
+}
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
 
 </body>
 </html> 

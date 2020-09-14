@@ -8,12 +8,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <script src="scripts/slideshow.js"></script>
-      
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <title>MP-Tourism-slideshow</title>
     </head>
 
 <body>
-    <header>
+<header>
+       
         <div class="slideshow-container">
         <div class="mySlides fade">
         <div class="numbertext">1 / 6</div>
@@ -41,8 +43,8 @@
 
         <div class="mySlides fade">
         <div class="numbertext">5 / 6</div>
-        <img src="assets/images/pench-national-park.jpg" style="width:100%">
-        <div class="text">Pench National Park</div>
+        <img src="assets/images/cave-paintings-bhim-baithka-crop.jpg" style="width:100%">
+        <div class="text">Cave Paitings, Bhim Baithka</div>
         </div>
 
         <div class="mySlides fade">
@@ -79,38 +81,56 @@
                 <li class="col-4 ui-menu-color list-inline-item menuitem">
                 <a href="map.html" class="hvr-sweep-to-bottom"><i class="fas fa-plane" aria-hidden="true"></i><span>Spot your destinations</span></a>
                 </li>
+                              
             </ul>
         </div>
     </div>
-</header>                 
-           
-
-
-    <section>
-        <div class="container-fluid">
-            <div class="row bg-color-contact">
-                <div class="col">
-                    <h3 class="contact-heading uppercase text-center">Holiday on your mind?</h3>
-                    <h5 class="uppercase text-center">Let us help you plan it!</h5>
-                        <div class="center-form">
-                            <form>
-                            
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                            <input type="text" name="email" id="emailaddress" class="form-control" placeholder="EMail" required/>
-                            <input type="date" name="date" id="startdate" class="form-control" placeholder="Start Date" required/>
-                            <input type="date" name="date" id="enddate" class="form-control" placeholder="End Data" required/>
-                            <textarea rows="5" name="holidaysummary" id="holidaysummary" class="form-control" placeholder="Describe your dream holiday" required></textarea>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Enquiry</button>
-                            </div>
-                        </div>
-                            </form>
-                        </div>
-                </div>
-            </div>
-        </div>
     
-    </section>
+</header>
+
+<section>
+<div id="map"></div>
+<p>Check out your holiday destinations on the Map</p>
+</section>
+
+<script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+
+            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+
+            var locations = [{
+                lat: 40.785091,
+                lng: -73.968285
+            }, {
+                lat: 41.084045,
+                lng: -73.874256
+            }, {
+                lat: 40.754932,
+                lng: -73.984016
+            }];
+
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
+        }
+    </script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+
+
 </body>
 </html> 

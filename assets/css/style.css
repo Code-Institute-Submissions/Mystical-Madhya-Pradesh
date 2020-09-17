@@ -153,8 +153,8 @@ img {vertical-align: middle;}
 /*--------------------------accordion---------------------------------------------*/
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: grey;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -177,26 +177,32 @@ h2 {
     padding-left: 10px;
 }
 
-.stay-body {
+.stay-image {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    margin-bottom: 20px;
+    max-height: 70%;
+    object-fit: contain;
 }
 
-.food-body {
+.food-image {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    margin-bottom: 20px;
+    max-height: 70%;
+    object-fit: contain;
 }
 
 .panel {
-  padding: 0 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.accordion-heading {
+    font-weight: 700;
+}
+
+.accordion-body {
+    padding: 0 10px;
+    text-align: justify;
 }
 
 /*-----------------------contact Form------------------------------------------*/
@@ -229,6 +235,15 @@ button[type="submit"] {
 #map{
     height: 500px;
 }
+
+.map-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: red;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
 
 .map-text{
     text-align: center;

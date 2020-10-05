@@ -1,0 +1,17 @@
+
+.map{
+    height: 500px;
+}
+
+.map-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: red;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+
+.map-text{
+    text-align: center;
+}

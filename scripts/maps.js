@@ -1,54 +1,54 @@
 var map;
 var InfoObject = [];
 var centreCoords = {
-    lat: 20.5937, 
-    lng: 78.9629
+    lat: 22.9734, 
+    lng: 78.6569
 };
 
 var icons = {
     destination: {
-        icon: 'https://img.icons8.com/color/30/000000/sunbathe.png'
+        icon: 'https://img.icons8.com/ios/50/000000/sunbathe.png'
     },
     hotel: {
-        icon: 'https://img.icons8.com/ultraviolet/40/000000/5-star-hotel.png'
+        icon: 'https://img.icons8.com/ios-filled/50/000000/5-star-hotel--v1.png'
     }
 };
 
 var markersOnMap = [
     {
-    placeName: 'Gwalior Fort, Gwalior',
+    placeName: 'Day 1 : Gwalior Fort, Gwalior',
     latLng:
-        [{lat: 24.8318, lng: 79.9199}],
+        [{lat: 26.2313, lng: 78.1695}],
         type: 'destination'},
 
     {
-    placeName: 'Kandariya Mahadev Temple, Khajuraho',
+    placeName: 'Day 2 : Kandariya Mahadev Temple, Khajuraho',
     latLng:
         [{lat: 24.8530, lng: 79.9197}],
         type: 'destination'},
 
     {
-    placeName: 'Dhoopgarh, Pachmarhi',
+    placeName: 'Day 3 : Dhoopgarh, Pachmarhi',
     latLng:
         [{lat: 22.4674,lng: 78.4346}],
         type: 'destination'},
 
     {
-    placeName: 'Marble Rocks, Jabalpur',
+    placeName: 'Day 4 : Marble Rocks, Jabalpur',
     latLng:
-       [{lat: 23.1815,lng: 79.9864}],
+       [{lat: 23.1306,lng: 79.8024}],
         type: 'destination'},
 
     {
-    placeName: 'Kanha National Forest',
+    placeName: 'Day 5 : Kanha National Forest',
+    latLng:
+        [{lat: 22.3341,lng: 80.6112}],
+        type: 'destination'},
+
+    {
+    placeName: 'Day 6: Pench National Forest',
     latLng:
         [{lat: 21.6495,lng: 79.2451}],
-        type: 'destination'},
-
-    {
-    placeName: 'Pench National Forest',
-    latLng:
-        [{lat: 22.3345,lng: 80.6115}],
         type: 'destination'},
 
     {
@@ -65,7 +65,7 @@ var markersOnMap = [
 
 function addMarkerInfo() {
     for (var i = 0; i < markersOnMap.length; i++){
-        var contentString = '<h3>' + markersOnMap[i].placeName + '</h3>';
+        var contentString = '<h4>' + markersOnMap[i].placeName + '</h4>';
         const marker = new google.maps.Marker({
             position: markersOnMap[i].latLng[0],
             icon: icons[markersOnMap[i].type].icon,
@@ -98,7 +98,7 @@ function addMarkerInfo() {
 function initMap() {
    map = new google.maps.Map(document.getElementById("map"), {
         center: centreCoords,
-        zoom: 5,
+        zoom: 6,
           });
           addMarkerInfo();
         }

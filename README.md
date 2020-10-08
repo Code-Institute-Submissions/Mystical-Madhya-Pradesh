@@ -1,54 +1,61 @@
-<h1 align="center">Madhya Pradesh-The heart of India</h1>
+<h1 align="center">Mystical Madhya Pradesh</h1>
 
 [View the live project here.](https://debarati-datta.github.io/Selsey-Book-Club/)
 
-This is the website for a neighbourhood book-lovers club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for members and non-members.
+### This is the website for a new package holiday coampany that offers just one package right now to test markets. 
+### It is a package tour of 6 popular destinations in central India covered in 6 days.
 
-## Let's Talk Books
+## Madhya Pradesh - The heart of India - Introduction
 
-### The book club idea stems from the overall need for people to connect with other people. An informal chat with some neighbours down the road pointed towards the need of a common activity that can help people come together and chat. Book reading emerged as something everyone does to some degree so as we decided to take the idea forward.
+### The idea stems from the overall need for people to travel and explore new places. It also recognises that people want the logistics to be taken care of completely so they can just relax and enjoy their break. Hence the package that takes care of food, transport and stay and the visits are neatly scheduled. It is targetted at domestic travellers although some tweaking can make it relevant for international travellers too.
 
 ## User Experience (UX)
 
 ### User stories
 
-- ### User 1 : I want to explore a holiday in Madhya Pradesh
+- ### User 1 : I want to experience a holiday in Madhya Pradesh
 
- 1. The About Us section on Home Page defines the goal and describes the activities of the club.
- 2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
- 3. The main points are made immediately with the 'About Us' and 'features' sections on the home page.
+ 1. The Home section presents pictures and information for the six most popular destinations of Madhya Pradesh.
+ 2. The user is greeted with a clean and easily readable navigation bar that allows you to go to the page of your choice. 
+ 3. The most relevant information is immediately available with the 'Destinations', 'Stay' and 'Food' sections on the home page.
  
+ - ### User 2 : I want to see my destinations on the map
+
+1. The navigation is simple and the map page shows the destinations.
+2. The previously marked destinations on the map page displays more information when clicked to give the user an initiation on a mental plan.
+
+- ### User 3 : I want a detailed itinerary which I can use to hold the organisers accountable for any mismanagement
+
+1. The 'itinerary' page allows the user to request an itinerary via email.
+2. The itinerary takes into account the dates of visit and the number of visitors to create a detailed plan with pricing, payment method etc.
+
+
+### Site owner goals
+
+### Goal 1 : To offer a visually appealing page to get people interested in the package tour
+
+ 1. The Home section presents a beautiful slideshow of six pictures for the six most popular destinations of Madhya Pradesh.
+ 2. The Home page also presents enticing pictures of the centrally loacted hotel and the food making the idea of picking this holiday stronger in user's mind.
  
-- ### User 2 : I want to navigate with ease
+ ### Goal 2 : To offer some interactive elements so the user stays longer on the site that results in a booking
 
-1. The navigation is simple and the home button brings you back from every page.
-2. The facebook button at the bottom of each page takes you directly to the Selsey Book Club facebook page.
-
-- ### User 3 : I want to know what other users think about the club
-
-1. The 'Join the Club' page has member quotes that expresses clearly that they value the club.
-2. The gender mix of users is also expressed in the quotes section which leaves a positive impression on a new user.
-
-- ### User 4 : I want to know what I can do with used books
-
-1. The 'Books' page has a section on recycle and reuse. It encourages the user to donate books to the Club library. 
-2. The section on 'Recycle and Reuse' also gives the user other ideas on recycling books.
+1. The map offers interactivity and the user can alter the way the map displays information by clicking on the markers.
+2. Also the user can enter some of his details to request a detailed itinerary.
 
 
 ## Features
 
-- ### The club helps form sub-groups of readers who enjoy the same/similar books and connects them via the [Facebook](facebook.com) app.
+1. The holiday package is all inclusive and provides opportunity to add more destinations within a given radius through 
+    research, details of which are available on the itinerary page.
 
+2. The google map showing destinations and hotel gets the plan to crystallise in the user's mind.
 
-- ### The "popular titles" provides a list of books that already have sub-groups discussing them. This allows members to get involved with with a specific interest group and mingle more meaningfully.
-
-
-- ### The Club facilitates various events for the book club members. These are organised by members themselves within their specific groups.
 
 ## New Features to be implemented in future
 
-- A donate page with payment provision that links to a larger charity that supplies books to the underpriviledged in certain countries.
-
+A booking/payment page that shows dates availability so a booking can be made straightaway by paying up. Terms and conditions page to be 
+attached to it showing cancellation and refund policies. Also adding more destinations and giving the user option to build his own tour 
+package.
 
 ## Technologies Used
 
@@ -56,6 +63,8 @@ This is the website for a neighbourhood book-lovers club. It is designed to be r
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 
 ### Frameworks, Libraries & Programs Used
 

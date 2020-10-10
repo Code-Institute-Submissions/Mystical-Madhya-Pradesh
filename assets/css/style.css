@@ -2,17 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
 
 .callout-container {
-    background: white;
-    color: #ff0000;
-    margin: 0;
-    font-weight: 700;
+    background: rgba(165, 101, 42, 0.932);
+    color: black;
+    font-style: bold;
     letter-spacing: 0.3em;
-}
-
-.logo {
-    padding-left: 5px;
-    padding-right: 5px; 
-    margin: 0 auto; 
+    width: 100%;
     
 }
 
@@ -20,10 +14,10 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
     margin: 0 auto; 
-   
-}
+    font-style: bold;
+  }
 
 
 * {box-sizing: border-box}
@@ -146,14 +140,17 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size, centre the logo */
 @media only screen and (max-width: 1000px) {
   .text {font-size: 11px;}
-  .callout-heading {font-size: 20px;}
+  .callout-heading {font-size: 7px;}
   .lead {display: none;}
-  .logo {text-align: center;}
+  .logo {
+    max-width: 100%;
+    max-height: 50%;
+    text-align: center;}
   .callout-container {
       letter-spacing: 0.1em;
-      margin-left: 10px;}
+      }
   .callout-heading {
-      padding-top: 2px;}
+      padding-top: 1px;}
 }
 
 /*--------------------------accordion---------------------------------------------*/

@@ -1,6 +1,6 @@
 <h1 align="center">Mystical Madhya Pradesh</h1>
 
-[View the live project here.](https://debarati-datta.github.io/Selsey-Book-Club/)
+[View the live project here.](https://debarati-datta.github.io/Mystical-Madhya-Pradesh/)
 
 ### This is the website for a new package holiday coampany that offers just one package right now to test markets. 
 ### It is a package tour of 6 popular destinations in central India covered in 6 days.
@@ -13,18 +13,26 @@
 
 ### User stories
 
-- ### User 1 : I want to experience a holiday in Madhya Pradesh
+- ### User 1 : I want to understand in one quick glace the purpose of the site
 
- 1. The Home section presents pictures and information for the six most popular destinations of Madhya Pradesh.
- 2. The user is greeted with a clean and easily readable navigation bar that allows you to go to the page of your choice. 
- 3. The most relevant information is immediately available with the 'Destinations', 'Stay' and 'Food' sections on the home page.
+ 1. The callout section clearly spells out the purpose of the site.![image](https://user-images.githubusercontent.com/66360068/96184016-be913900-0f2f-11eb-8cb8-0968ab17d6b3.png)
+ 2. The automatic slideshow tells a picture story while generating interest to know more about the locations.
+
+- ### User 2 : I want to navigate with ease and find thing easily
+
+ 1. The user is greeted with a clean and easily readable navigation bar that allows you to go to the page of your choice. 
+ 2. The most relevant information is immediately available with the 'Destinations', 'Stay' and 'Food' sections on the home page.
+ ![image](https://user-images.githubusercontent.com/66360068/96184123-e8e2f680-0f2f-11eb-99d4-4b6c09061a10.png)
+ ![image](https://user-images.githubusercontent.com/66360068/96184176-ff894d80-0f2f-11eb-9738-2d016655514c.png)
+ ![image](https://user-images.githubusercontent.com/66360068/96184213-1039c380-0f30-11eb-98ea-203b39f89ed8.png)
  
- - ### User 2 : I want to see my destinations on the map
+ - ### User 3 : I want to see my destinations on the map
 
 1. The navigation is simple and the map page shows the destinations.
 2. The previously marked destinations on the map page displays more information when clicked to give the user an initiation on a mental plan.
+![image](https://user-images.githubusercontent.com/66360068/96184370-50994180-0f30-11eb-8799-6a0d463c8914.png)
 
-- ### User 3 : I want a detailed itinerary which I can use to hold the organisers accountable for any mismanagement
+- ### User 4 : I want a detailed itinerary which I can use to hold the organisers accountable for any mismanagement
 
 1. The 'itinerary' page allows the user to request an itinerary via email.
 2. The itinerary takes into account the dates of visit and the number of visitors to create a detailed plan with pricing, payment method etc.
@@ -42,11 +50,16 @@
 1. The map offers interactivity and the user can alter the way the map displays information by clicking on the markers.
 2. Also the user can enter some of his details to request a detailed itinerary.
 
+### Goal 3 : To eventually make this as an offering on the major [state tourism website](http://www.mptourism.com/)
+
+1. The state encourages smaller entrepreneurs to present their small sized, specific offering through the main state tourism website 
+2. Its an ideal marriage as user is drawn to the large platform but also wants to enjoy the dedicated efforts of smaller teams
+
 
 ## Features
 
 1. The holiday package is all inclusive and provides opportunity to add more destinations within a given radius through 
-    research, details of which are available on the itinerary page.
+    research, details of which are made available when requested an itinerary.
 
 2. The google map showing destinations and hotel gets the plan to crystallise in the user's mind.
 
@@ -65,8 +78,12 @@ package.
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
+### Wireframes
 
-### Frameworks, Libraries & Programs Used
+1. The home page for desktop - [wireframe](https://user-images.githubusercontent.com/66360068/96183658-17140680-0f2f-11eb-91c1-88f2238712fd.png)
+2. The map page for mobile - [wireframe](https://user-images.githubusercontent.com/66360068/96183827-6ce8ae80-0f2f-11eb-99c4-da1590cbc30f.png)
+
+### Frameworks, Libraries, Tutorials & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
@@ -82,6 +99,14 @@ package.
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [youtube:](https://www.youtube.com/)
+    -youtube tutorials are used to understand the google map markers and infowindows
+1. [w3schools:](https://www.w3schools.com/)
+    -w3school tutorial are used to understand accordion principle and working
+1. [stack-overflow:](https://stackoverflow.com/)
+    -Stack Overflow is used to get answers to various whys and hows
+
+
 
 ## Testing
 

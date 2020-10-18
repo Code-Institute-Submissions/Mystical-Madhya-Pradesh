@@ -4,7 +4,6 @@
 .callout-container {
     background: rgba(165, 101, 42, 0.932);
     color: black;
-    font-style: bold;
     letter-spacing: 0.3em;
     width: 100%;
     
@@ -16,7 +15,6 @@
     padding-right: 20px;
     padding-top: 15px;
     margin: 0 auto; 
-    font-style: bold;
   }
 
 
@@ -116,8 +114,6 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
   animation-name: fade;
   animation-duration: 2s;
 }
@@ -126,10 +122,6 @@ img {vertical-align: middle;}
     opacity: 1;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 @keyframes fade {
   from {opacity: .4} 
@@ -227,11 +219,11 @@ h4 {
 
 }
 
-/*-----------------------contact Form------------------------------------------*/
+/*-----------------------Itinerary Request Form------------------------------------------*/
 
 .contact-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     margin-bottom: 25px;
     margin-top: 20px;
 
@@ -242,6 +234,13 @@ h4 {
     margin: 0 auto;
     max-width: 70%;
 
+}
+
+.input-grp{
+    padding-left:5px;
+    font-family: "Exo", sans-serif;
+    margin-top: .5rem;
+    font-weight: 300;
 }
 
 button[type="submit"] {

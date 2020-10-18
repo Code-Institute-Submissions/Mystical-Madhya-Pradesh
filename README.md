@@ -107,37 +107,50 @@ package.
     -Stack Overflow is used to get answers to various whys and hows
 
 
-
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://user-images.githubusercontent.com/66360068/96328537-09987280-103c-11eb-85ce-c8356e3ca49e.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/66360068/96328597-c1c61b00-103c-11eb-9ab5-00adb70eef9c.png)
 
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy Note9, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 
 
--   Contact form: Testing
-1.  Go to the "Contact Us" page
+-   Itinerary Request Form: Testing
+1.  Go to the "Request an Itinerary" page
 2.  Try to submit the empty form - an error message about the required fields appears.
 3.  Try to submit the form with an invalid email address - an error message appears.
-4.  Try to submit the form with all inputs valid - a success message appears.
+4.  Try to submit the form with number of adults less than 1 - an error msg appears.
+5.  Try to submit the form with number of children less than 0 - an error msg appears.
+6.  The form only accepts dates starting from 01.01.2020 to 31.12.2022. 
+
+Once the form is submitted correctly, an email is sent to the site owner in a pre-designed template 
+-   [Form Submit](https://user-images.githubusercontent.com/66360068/96360639-bfd08a80-1116-11eb-9057-4d392093d7ae.png)
+-   [EMail Sent](https://user-images.githubusercontent.com/66360068/96360726-73397f00-1117-11eb-90dc-fc197bf17f74.png)
+
 
 ## Learnings
 
--   The initial impulse was to make myself look good only through the website. My mentor introduced me to the concept of user stories. It completely changed the way I was approaching the project.
--   I also was living under the impression that too many commits are unnecessary and just shows how little you are doing so was reluctant to commit unless I had made significant changes. Discussion with my mentor put an end to that myth. That is the reason my initial commits are rare.
--   Asthetic appeal and readability of the text improved significantly when I tried the font 'Lato' instead of 'Roboto'. Had never realised before that fonts make such a huge difference.
+-   After learning, HTML/CSS, JavaScript felt like a mountain I will not be able to get past. I started working on this project almost simultaneously as 
+    I started learning JavaScript only because I thought any idea that may seem implementable, I must do it straightaway. I made this decision quite early 
+    only because I was finiding JavaScript too tough and was not sure how much I will retain in my head. I feel I made the right choice as by doing this 
+    I never got too overwhelmed as I developed this project very very slowly. It took me days to wrap my head around the simplest of codes like the
+    slideshow! I am pleased that I now at least fully understand the code I have implemented in this project, be it for the accordion or the Email sending. 
+    Map tooks me ages to implement as my infowindows just won't work but when it finally did, it was a Eureka moment indeed!
+
+-   Researching the internet to find the right guidance was something that I learnt and started relying upon heavily during this project. 
+
+-   At the same time, I learnt how much more JavaScript can do and also learnt the limitations of HTML
 
 ## Limitations
 
--   Upon submitting the form, to come back to the website, we have to rely on the browser's back button. I would ideally want the 'congratulations' message to open in a separate tab. However, I could not achieve it.
+-   The form is not displaying the start and end date or even the calender icon when using browsers such as chrome or internet explorer. I do not know how to fix it.
 
 ## Known bugs
 
@@ -155,20 +168,16 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published [site link](https://debarati-datta.github.io/Selsey-Book-Club/) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published [site link](https://debarati-datta.github.io/Mystical-Madhya-Pradesh/) in the "GitHub Pages" section.
 
 
 
 ## Sources
 ### This project is inspired by 
 
-- The whiskey drop project(Code Institute) - The quotes and features section 
+- The whiskey drop project(Code Institute) - The callout section and the itinerary request 
 
 - The Resume project(Code Institute)- The navbar design
-
-- The Love Running project(Code Institute) - The contact form
-
-- The text for recycle books was copied from [link](https://wasteless.zerowastescotland.org.uk)
 
 - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
@@ -184,8 +193,11 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for continuous helpful feedback. Its my mentor's challenges that I try to live upto. He pointed out in our first project
+    meeting that I was still operating in my HTML/CSS cocoon and that helped me explore a lot more.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support especially Miklos who helped me understand the slideshow code via a screen share session. That session helped me in 
+    many ways as I started to keenly follow what the code does in a step by step manner. He helped me use the debugger and also just
+    taught me the general approach to JavaScript coding. 
 
 

@@ -160,7 +160,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 
 .fade:not(.show) {
@@ -190,6 +190,12 @@ img {vertical-align: middle;}
       padding-top: 1px;}
 }
 
+
+.introduction {
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
 /*--------------------------accordion---------------------------------------------*/
 
 button.accordion {
@@ -307,4 +313,17 @@ button[type="submit"] {
 
 }
 
+}
+
+/*-----------------------------footer---------------------------------*/
+
+.footer-container {
+    background-color: rgba(255, 72, 0, 0.753);
+}
+
+#footer-details {
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    font-size: 12px;
 }

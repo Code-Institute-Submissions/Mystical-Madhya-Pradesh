@@ -262,12 +262,16 @@ h4 {
 }
 
 .description {
+    display: flex;
     padding: 10px;
-    text-align: justify;
+}
+
+.description-text {
+    text-align: center;
+    padding-left: 20px;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0rem;
-
 }
 
 /*-----------------------Itinerary Request Form------------------------------------------*/

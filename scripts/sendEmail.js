@@ -1,5 +1,7 @@
+
 function sendMail(contactForm) {
-    emailjs.send("gmail", "debs", {
+    
+      emailjs.send("gmail", "debs", {
         "from_name": contactForm.name.value,
         "from_startdate": contactForm.startdate.value,
         "from_enddate": contactForm.enddate.value,
@@ -8,6 +10,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "itinerary_request": contactForm.holidaysummary.value,
     })
+
     .then(
         function(response) {
             console.log("SUCCESS", response);
@@ -16,5 +19,7 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    return false;
-   }
+
+
+}
+

@@ -15,26 +15,27 @@
 
 - ### User 1 : I want to understand in one quick glace the purpose of the site
 
- 1. The callout section clearly spells out the purpose of the site.![image](https://user-images.githubusercontent.com/66360068/96184016-be913900-0f2f-11eb-8cb8-0968ab17d6b3.png)
+ 1. The callout section clearly spells out the purpose of the site.![image](https://user-images.githubusercontent.com/66360068/97140595-df8a3300-1754-11eb-8abc-74648a35789c.png)
+ 2. Also the very first paragraph on the home page describes the purpose of the website. ![image](https://user-images.githubusercontent.com/66360068/97140688-15c7b280-1755-11eb-9974-5e83e32a919d.png)
  2. The automatic slideshow tells a picture story while generating interest to know more about the locations.
 
 - ### User 2 : I want to navigate with ease and find thing easily
 
  1. The user is greeted with a clean and easily readable navigation bar that allows you to go to the page of your choice. 
  2. The most relevant information is immediately available with the 'Destinations', 'Stay' and 'Food' sections on the home page.
- ![image](https://user-images.githubusercontent.com/66360068/96184123-e8e2f680-0f2f-11eb-99d4-4b6c09061a10.png)
+ ![image](https://user-images.githubusercontent.com/66360068/97141127-09902500-1756-11eb-9bb1-2558b6710b3e.png)
  ![image](https://user-images.githubusercontent.com/66360068/96184176-ff894d80-0f2f-11eb-9738-2d016655514c.png)
  ![image](https://user-images.githubusercontent.com/66360068/96184213-1039c380-0f30-11eb-98ea-203b39f89ed8.png)
  
  - ### User 3 : I want to see my destinations on the map
 
 1. The navigation is simple and the map page shows the destinations.
-2. The previously marked destinations on the map page displays more information when clicked to give the user an initiation on a mental plan.
-![image](https://user-images.githubusercontent.com/66360068/96184370-50994180-0f30-11eb-8799-6a0d463c8914.png)
+2. The previously marked destinations on the map page displays more information and a wikipedia link when clicked to give the user an initiation on a mental plan.
+![image](https://user-images.githubusercontent.com/66360068/97141393-8cb17b00-1756-11eb-8299-dd0e43052a04.png)
 
 - ### User 4 : I want a detailed itinerary which I can use to hold the organisers accountable for any mismanagement
 
-1. The 'itinerary' page allows the user to request an itinerary via email.
+1. The 'itinerary' page allows the user to request an itinerary via email. ![image](https://user-images.githubusercontent.com/66360068/97141782-4f99b880-1757-11eb-9770-e22140c3383d.png)
 2. The itinerary takes into account the dates of visit and the number of visitors to create a detailed plan with pricing, payment method etc.
 
 
@@ -53,7 +54,7 @@
 ### Goal 3 : To eventually make this as an offering on the major [state tourism website](http://www.mptourism.com/)
 
 1. The state encourages smaller entrepreneurs to present their small sized, specific offering through the main state tourism website 
-2. Its an ideal marriage as user is drawn to the large platform but also wants to enjoy the dedicated efforts of smaller teams
+2. It's an ideal marriage as user is drawn to the large platform but also wants to enjoy the dedicated efforts of smaller teams
 
 
 ## Features
@@ -80,8 +81,12 @@ package.
 
 ### Wireframes
 
-1. The home page for desktop - [wireframe](https://user-images.githubusercontent.com/66360068/96183658-17140680-0f2f-11eb-91c1-88f2238712fd.png)
-2. The map page for mobile - [wireframe](https://user-images.githubusercontent.com/66360068/96183827-6ce8ae80-0f2f-11eb-99c4-da1590cbc30f.png)
+1. The home page for desktop
+ - [wireframe original](https://user-images.githubusercontent.com/66360068/96183658-17140680-0f2f-11eb-91c1-88f2238712fd.png)
+ - [wireframe revised](https://user-images.githubusercontent.com/66360068/97147613-ac9a6c00-1761-11eb-9507-c0b07527a1df.png)
+2. The map page for mobile 
+ - [wireframe original](https://user-images.githubusercontent.com/66360068/96183827-6ce8ae80-0f2f-11eb-99c4-da1590cbc30f.png)
+ - [wireframe revised](https://user-images.githubusercontent.com/66360068/97147511-8aa0e980-1761-11eb-8028-9befba654432.png)
 
 ### Frameworks, Libraries, Tutorials & Programs Used
 
@@ -125,14 +130,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Itinerary Request Form: Testing
 1.  Go to the "Request an Itinerary" page
 2.  Try to submit the empty form - an error message about the required fields appears.
-3.  Try to submit the form with an invalid email address - an error message appears.
-4.  Try to submit the form with number of adults less than 1 - an error msg appears.
-5.  Try to submit the form with number of children less than 0 - an error msg appears.
-6.  The form only accepts dates starting from 01.01.2020 to 31.12.2022. 
+3.  Try to submit the form with an invalid email address - a prompt message appears.
+4.  Try to submit the form with number of adults less than 1 - a prompt msg appears.
+5.  Try to submit the form with number of children less than 0 - a prompt msg appears.
+6.  The form only accepts dates starting from 01.11.2020 to 31.12.2022. Not that that is too helpful but still keeps the user from picking insane dates and allows the site owner to initiate a dialogue.
 
 Once the form is submitted correctly, an email is sent to the site owner in a pre-designed template 
--   [Form Submit](https://user-images.githubusercontent.com/66360068/96360639-bfd08a80-1116-11eb-9057-4d392093d7ae.png)
--   [EMail Sent](https://user-images.githubusercontent.com/66360068/96360726-73397f00-1117-11eb-90dc-fc197bf17f74.png)
+-   [Form Submit]![image](https://user-images.githubusercontent.com/66360068/97144344-2f202d00-175c-11eb-979e-b5cc10db1401.png)
+-   [EMail Sent]![image](https://user-images.githubusercontent.com/66360068/97144440-5840bd80-175c-11eb-98a0-eb28d2b98af5.png)
 
 
 ## Learnings
@@ -150,7 +155,7 @@ Once the form is submitted correctly, an email is sent to the site owner in a pr
 
 ## Limitations
 
--   The form is not displaying the start and end date or even the calender icon when using browsers such as chrome or internet explorer. I do not know how to fix it.
+-   
 
 ## Known bugs
 

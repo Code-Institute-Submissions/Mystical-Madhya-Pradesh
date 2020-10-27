@@ -1,3 +1,4 @@
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -12,5 +13,5 @@ for (i = 0; i < acc.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
   });
-};
+}
 

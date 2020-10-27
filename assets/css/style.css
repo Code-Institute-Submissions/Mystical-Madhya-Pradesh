@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
 
+body{
+    font-family: Lato, sans-serif;
+}
+
 .callout-container {
     background: rgba(165, 101, 42, 0.932);
     color: black;
@@ -175,26 +179,10 @@ img {vertical-align: middle;}
 }
 
 
-/* On smaller screens, decrease text size, centre the logo */
-@media only screen and (max-width: 1000px) {
-  .text {font-size: 11px;}
-  .callout-heading {font-size: 7px;}
-  .lead {display: none;}
-  .logo {
-    max-width: 100%;
-    max-height: 40%;
-    text-align: center;}
-  .callout-container {
-      letter-spacing: 0.1em;
-      }
-  .callout-heading {
-      padding-top: 1px;}
-}
-
-
 .introduction {
     font-size: 15px;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: justify;
 }
 /*--------------------------accordion---------------------------------------------*/
@@ -264,7 +252,6 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px;
     max-height: auto;
 
 }
@@ -275,13 +262,35 @@ h4 {
 
 .description-text {
     text-align: justify;
-    padding-left: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-top: 10px;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0rem;
+    max-height: auto;
 }
 
+/* On smaller screens, decrease text size, centre the logo */
+@media only screen and (max-width: 1000px) {
+  .text {font-size: 11px;}
+  .callout-heading {font-size: 7px;}
+  .lead {display: none;}
+  .logo {
+    max-width: 100%;
+    max-height: 40%;
+    text-align: center;}
+  .callout-container {
+      letter-spacing: 0.1em;
+      }
+  .callout-heading {
+      padding-top: 1px;
+      }
+  .description-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 /*-----------------------Itinerary Request Form------------------------------------------*/
 
 .contact-heading {
@@ -330,7 +339,7 @@ button[type="submit"] {
 /*-----------------------------footer---------------------------------*/
 
 .footer-container {
-    background-color: rgba(255, 72, 0, 0.753);
+    background-color: rgba(165, 101, 42, 0.932);
 }
 
 #footer-details {

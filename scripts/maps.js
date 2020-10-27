@@ -1,4 +1,5 @@
 var map;
+var google;
 var InfoObject = [];
 var centreCoords = {
     lat: 22.9734, 
@@ -64,7 +65,7 @@ var markersOnMap = [
         [{lat: 23.2332,lng: 77.4297}],
         type: 'hotel'},
 
-    ]
+    ];
 
     window.onload = function () {
     initMap();
